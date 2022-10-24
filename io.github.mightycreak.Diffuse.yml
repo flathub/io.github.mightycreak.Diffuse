@@ -18,5 +18,5 @@ modules:
     sources:
        - type: git
          url: https://github.com/MightyCreak/diffuse
-         commit: 9fd76e30cb63ab2e1c6123fa3acf417fee43c5b3
-         tag: v0.7.6
+         commit: c07f6681dc6ae6d80511aed19c81075de1576b18
+         tag: v0.7.7
