@@ -1,10 +1,11 @@
 app-id: io.github.mightycreak.Diffuse
 runtime: org.gnome.Platform
-runtime-version: '42'
+runtime-version: '44'
 sdk: org.gnome.Sdk
 command: diffuse
 finish-args:
   - --filesystem=home
+  - --filesystem=xdg-run/gvfsd
   - --share=ipc
   - --socket=wayland
   - --socket=fallback-x11
@@ -18,5 +19,5 @@ modules:
     sources:
        - type: git
          url: https://github.com/MightyCreak/diffuse
-         commit: c07f6681dc6ae6d80511aed19c81075de1576b18
-         tag: v0.7.7
+         commit: 1dd1afe10bf11617957ae9ec2c3b11e535179735
+         tag: v0.8.0
