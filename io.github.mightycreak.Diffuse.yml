@@ -15,9 +15,10 @@ modules:
     builddir: true
     buildsystem: meson
     config-opts:
+      - -Dlog_print_output=true
       - -Duse_flatpak=true
     sources:
        - type: git
          url: https://github.com/MightyCreak/diffuse
-         commit: b1b927841fccad43029b17c6c070ec9da8a3cedb
-         tag: v0.8.1
+         commit: c0cefac1c4ab99a309b65002e820f5c815e368e1
+         tag: v0.8.2
