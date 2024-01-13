@@ -1,6 +1,6 @@
 app-id: io.github.mightycreak.Diffuse
 runtime: org.gnome.Platform
-runtime-version: '44'
+runtime-version: '45'
 sdk: org.gnome.Sdk
 command: diffuse
 finish-args:
@@ -18,7 +18,7 @@ modules:
       - -Dlog_print_output=true
       - -Duse_flatpak=true
     sources:
-       - type: git
-         url: https://github.com/MightyCreak/diffuse
-         commit: c0cefac1c4ab99a309b65002e820f5c815e368e1
-         tag: v0.8.2
+      - type: git
+        url: https://github.com/MightyCreak/diffuse
+        tag: v0.9.0
+        commit: 6510966ae9ae278d811f0efc94f4b624bd66effa
