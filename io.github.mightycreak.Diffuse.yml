@@ -1,6 +1,6 @@
 app-id: io.github.mightycreak.Diffuse
 runtime: org.gnome.Platform
-runtime-version: '46'
+runtime-version: '48'
 sdk: org.gnome.Sdk
 command: diffuse
 finish-args:
@@ -12,13 +12,13 @@ finish-args:
   - --talk-name=org.freedesktop.Flatpak
 modules:
   - name: diffuse
-    builddir: true
     buildsystem: meson
+    builddir: true
     config-opts:
       - -Dlog_print_output=true
       - -Duse_flatpak=true
     sources:
       - type: git
         url: https://github.com/MightyCreak/diffuse
-        tag: v0.9.0
-        commit: 6510966ae9ae278d811f0efc94f4b624bd66effa
+        tag: v0.10.0
+        commit: 4c5aba4451e99d12c21f7e00fbd909f0469bf9cd
